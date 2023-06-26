@@ -70,3 +70,7 @@ C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.L
 C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\net6.0\Alura.ListaLeitura.App.pdb
 C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\net6.0\Alura.ListaLeitura.App.genruntimeconfig.cache
 C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\net6.0\ref\Alura.ListaLeitura.App.dll
+C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\net6.0\HTML\formulario.html
+C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\net6.0\HTML\para-ler.html
+C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\net6.0\HTML\lendo.html
+C:\Users\walte\OneDrive\Documentos\C#\ASP-NetCore-MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\net6.0\HTML\lidos.html
