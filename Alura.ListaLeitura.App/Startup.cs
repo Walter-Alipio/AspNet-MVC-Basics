@@ -1,7 +1,6 @@
-﻿using Alura.ListaLeitura.App.Logica;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Routing;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace Alura.ListaLeitura.App
 {
@@ -9,13 +8,12 @@ namespace Alura.ListaLeitura.App
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRouting();
             services.AddMvc();
         }
 
         public void Configure(IApplicationBuilder app)
         {
-     
+            app.UseExceptionHandler();
             app.UseMvcWithDefaultRoute();
             //app.Run(Roteamento);
         }
