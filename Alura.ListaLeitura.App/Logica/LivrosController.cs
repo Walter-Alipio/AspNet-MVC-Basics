@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Alura.ListaLeitura.App.Logica
 {
-    public class LivrosLogca
+    public class LivrosController
     {
-        public static Task LivrosParaLer(HttpContext context)
+        public static Task ParaLer(HttpContext context)
         {
             var conteudoArquivo = HtmlUtils.CarregaArquivoHTML("para-ler");
             var _repo = new LivroRepositorioCSV();
@@ -24,7 +24,7 @@ namespace Alura.ListaLeitura.App.Logica
             return context.Response.WriteAsync(conteudoArquivo);
         }
 
-        public static Task LivrosLendo(HttpContext context)
+        public static Task Lendo(HttpContext context)
         {
             var conteudoArquivo = HtmlUtils.CarregaArquivoHTML("lendo");
             var _repo = new LivroRepositorioCSV();
@@ -37,7 +37,7 @@ namespace Alura.ListaLeitura.App.Logica
 
             return context.Response.WriteAsync(conteudoArquivo);
         }
-        public static Task LivrosLidos(HttpContext context)
+        public static Task Lidos(HttpContext context)
         {
             var conteudoArquivo = HtmlUtils.CarregaArquivoHTML("lidos");
             var _repo = new LivroRepositorioCSV();
@@ -51,7 +51,7 @@ namespace Alura.ListaLeitura.App.Logica
             return context.Response.WriteAsync(conteudoArquivo);
         }
 
-        public static Task ExibeDetalhes(HttpContext context)
+        public static Task Detalhes(HttpContext context)
         {
             int id = Convert.ToInt32(context.GetRouteValue("id"));
             var repo = new LivroRepositorioCSV();
